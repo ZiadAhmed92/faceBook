@@ -1,0 +1,61 @@
+.form-control:focus,.form-select:focus{
+    box-shadow: none ;
+}
+.register{
+    background: #EEE;
+    padding: 20px;
+}
+.form-label{
+    font-weight: bolder;
+    
+}
+.bg-facebook{
+    background-color: #1877f2;
+}
+.text-facebook{
+    color: #1877f2;
+    
+}
+.letterSpacing{
+    letter-spacing: 5px;
+}
+.btn-register,.bg-facebook{
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.btn-register{
+    background-color: #42b72a;
+}
+
+.line{
+    background: #0000004b;
+    width: 35%;
+    height: 1px;
+}
+.para{
+    font-weight: bold;
+    margin: 8px 5px ;
+}
+.nav-login {
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+    .register{
+        background: #EEE;
+        border-radius: 20px;
+        padding: 10px;
+        width: 100% !important;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+  }
