@@ -13,8 +13,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 let router = createBrowserRouter([
   {
    path: "/", element: <Layout />, children: [
-      { path: "login", element: <Login /> },
-      { index:true, element: <Home /> },
+      { index:true, element: <Login /> },
+      { path: "home" ,element: <Home /> },
       { path: "register", element: <Register /> },
       { path: "*", element: <NotFound /> },
     ]
